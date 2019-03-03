@@ -1,0 +1,191 @@
+commit 929559d22d7b252d457282d5118f23f7ff7d92ee
+Author: Ion Berasaluce <ion.berasaluce14@imperial.ac.uk>
+Date:   Sun Mar 26 19:55:42 2017 +0100
+
+    Code ready for submission
+
+M	AmpProcess.py
+M	Backups/.DS_Store
+A	Backups/March-26-2017/AmpProcess.py
+A	Backups/March-26-2017/HPC_cw.cpp
+A	Backups/March-26-2017/Makefile
+A	Backups/March-26-2017/PostProcess.py
+A	Backups/March-26-2017/PostProcessTask2.py
+A	Backups/March-26-2017/basefunct.cpp
+A	Backups/March-26-2017/headers.h
+A	Backups/March-26-2017/task2funct.cpp
+A	Backups/March-26-2017/task3funct.cpp
+A	Backups/March-26-2017/task4funct.cpp
+A	Backups/March-26-2017/task5funct.cpp
+M	HPC_cw
+M	HPC_cw.cpp
+M	Makefile
+M	PostProcess.py
+A	PostProcessTask1.py
+D	PostProcessTask2.py
+M	basefunct.cpp
+M	headers.h
+M	task2funct.cpp
+M	task3funct.cpp
+M	task4funct.cpp
+M	task5funct.cpp
+
+commit e48067e1de062b52162278ffdda4543c2c0bbe5b
+Author: Ion Berasaluce <ion.berasaluce14@imperial.ac.uk>
+Date:   Sat Mar 25 17:41:39 2017 +0000
+
+    Task 4 made efficient and exported to a fuction, final touches done to the makefile, only documentation left to do
+
+M	.DS_Store
+M	HPC_cw
+M	HPC_cw.cpp
+D	HPC_cw.o
+M	Makefile
+D	Out.txt
+D	basefunct.o
+M	headers.h
+M	task2funct.cpp
+D	task2funct.o
+D	task3funct.o
+M	task4funct.cpp
+M	task5funct.cpp
+D	task5funct.o
+
+commit 7aff48704d5d6095c0e3d8b4e437e8b188343b16
+Author: Ion Berasaluce <ion.berasaluce14@imperial.ac.uk>
+Date:   Sat Mar 25 11:24:35 2017 +0000
+
+    Task 3 c complete and updated python post-process scripts
+
+A	AmpProcess.py
+M	HPC_cw
+M	HPC_cw.cpp
+A	HPC_cw.o
+M	Makefile
+A	Out.txt
+M	PostProcessTask2.py
+A	basefunct.o
+M	headers.h
+M	task2funct.cpp
+A	task2funct.o
+M	task3funct.cpp
+A	task3funct.o
+A	task5funct.o
+
+commit c4d00bf2fb8103278075ec0aa389e607781b11c5
+Author: Ion Berasaluce <ion.berasaluce14@imperial.ac.uk>
+Date:   Sat Mar 25 09:54:16 2017 +0000
+
+    Fully working task5
+
+M	.DS_Store
+M	Backups/.DS_Store
+A	Backups/March-25-2017/HPC_cw
+A	Backups/March-25-2017/HPC_cw.cpp
+A	Backups/March-25-2017/Makefile
+A	Backups/March-25-2017/PostProcess.py
+A	Backups/March-25-2017/PostProcessTask2.py
+A	Backups/March-25-2017/basefunct.cpp
+A	Backups/March-25-2017/headers.h
+A	Backups/March-25-2017/task2funct.cpp
+A	Backups/March-25-2017/task3funct.cpp
+A	Backups/March-25-2017/task4funct.cpp
+A	Backups/March-25-2017/task5funct.cpp
+M	HPC_cw
+M	HPC_cw.cpp
+D	MPI practice/MPI_test
+D	MPI practice/MPI_test.cpp
+D	MPI practice/pingpong.cpp
+M	Makefile
+M	basefunct.cpp
+M	headers.h
+D	mierdadelapregunta4
+M	task3funct.cpp
+A	task5funct.cpp
+
+commit 4ecb76054d38a6602451ba916c6c82f59be5fb34
+Author: Ion Berasaluce <ion.berasaluce14@imperial.ac.uk>
+Date:   Wed Mar 22 23:12:02 2017 +0000
+
+    Tasks 2f and 4 (barebones working)
+
+A	.DS_Store
+A	Backups/.DS_Store
+A	Backups/March-18-2017/HPC_cw
+A	Backups/March-18-2017/HPC_cw.cpp
+A	Backups/March-18-2017/Makefile
+A	Backups/March-18-2017/PostProcess.py
+A	Backups/March-18-2017/PostProcessTask2.py
+A	Backups/March-19-2017/HPC_cw
+A	Backups/March-19-2017/HPC_cw.cpp
+A	Backups/March-19-2017/HPC_cw.o
+A	Backups/March-19-2017/MPI_test
+A	Backups/March-19-2017/MPI_test.cpp
+A	Backups/March-19-2017/Makefile
+A	Backups/March-19-2017/PostProcess.py
+A	Backups/March-19-2017/PostProcessTask2.py
+A	Backups/March-19-2017/basefunct.cpp
+A	Backups/March-19-2017/basefunct.o
+A	Backups/March-19-2017/headers.h
+A	Backups/March-19-2017/pingpong
+A	Backups/March-19-2017/pingpong.cpp
+A	Backups/March-19-2017/task2funct.cpp
+A	Backups/March-19-2017/task2funct.o
+A	Backups/March-19-2017/task3funct.cpp
+A	Backups/March-19-2017/task3funct.o
+A	Backups/March-19-2017/task4funct.cpp
+M	HPC_cw
+M	HPC_cw.cpp
+A	MPI practice/MPI_test
+A	MPI practice/MPI_test.cpp
+A	MPI practice/pingpong.cpp
+M	Makefile
+M	PostProcess.py
+M	PostProcessTask2.py
+A	assignment.pdf
+M	basefunct.cpp
+M	headers.h
+A	mierdadelapregunta4
+M	task2funct.cpp
+M	task3funct.cpp
+A	task4funct.cpp
+
+commit 3de7d025f1ad54c22ffefdf5f034523e28923f12
+Author: Ion Berasaluce <ion.berasaluce14@imperial.ac.uk>
+Date:   Sat Mar 18 00:18:50 2017 +0000
+
+    Task3 parts a-b complete plus change to multiple source files
+
+A	HPC_cw
+M	HPC_cw.cpp
+A	Makefile
+A	basefunct.cpp
+A	headers.h
+A	task2funct.cpp
+A	task3funct.cpp
+
+commit e2247f2f8f690b4a66b73f1e1b38ed1feb6f0969
+Author: Ion Berasaluce <ion.berasaluce14@imperial.ac.uk>
+Date:   Thu Mar 16 00:28:54 2017 +0000
+
+    Task 2 complete
+
+M	HPC_cw.cpp
+M	PostProcess.py
+A	PostProcessTask2.py
+
+commit 6396ac96ee8db03fe44766a903517669a82756e2
+Author: Ion Berasaluce <ion.berasaluce14@imperial.ac.uk>
+Date:   Sun Mar 12 18:26:05 2017 +0000
+
+    Python Post-processing script
+
+A	PostProcess.py
+
+commit edf9118175e72541cdfa9bc4b52bab5645e7fa02
+Author: Ion Berasaluce <ion.berasaluce14@imperial.ac.uk>
+Date:   Sun Mar 12 18:23:32 2017 +0000
+
+    HPC part 1 completed
+
+A	HPC_cw.cpp
